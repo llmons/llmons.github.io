@@ -1,0 +1,10 @@
+.head {
+    background: #ef6969;
+    font-size: 22px;
+    font-family: "Arial Black";
+}
+
+.body {
+    border: 3px;
+    border-bottom-color: black;
+}
