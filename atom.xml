@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>LLmons&#39; House</title>
+  
+  
+  <link href="https://llmons.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://llmons.github.io/"/>
+  <updated>2024-09-06T10:08:59.380Z</updated>
+  <id>https://llmons.github.io/</id>
+  
+  <author>
+    <name>llmons</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://llmons.github.io/2024/09/06/hello-world/"/>
+    <id>https://llmons.github.io/2024/09/06/hello-world/</id>
+    <published>2024-09-06T10:08:59.380Z</published>
+    <updated>2024-09-06T10:08:59.380Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>sr-only</title>
+    <link href="https://llmons.github.io/2024/08/08/sr-only/"/>
+    <id>https://llmons.github.io/2024/08/08/sr-only/</id>
+    <published>2024-08-08T11:07:42.000Z</published>
+    <updated>2024-08-08T11:07:42.123Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;使用<code>sr-only</code>样式的目的是将内容从视觉上隐藏，但是仍然让 <code>Screen Reader</code> 可读。这对视觉障碍者提供了额外的信息，增强了<code>Accessibility</code>，同时对<code>SEO</code>友好。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.sr-only</span>&#123;</span><br><span class="line">  <span class="attribute">position</span>:absolute;</span><br><span class="line">  <span class="attribute">width</span>:<span class="number">1px</span>;</span><br><span class="line">  <span class="attribute">height</span>:<span class="number">1px</span>;</span><br><span class="line">  <span class="attribute">padding</span>:<span class="number">0</span>;</span><br><span class="line">  <span class="attribute">margin</span>:-<span class="number">1px</span>;</span><br><span class="line">  <span class="attribute">overflow</span>:hidden;</span><br><span class="line">  <span class="attribute">clip</span>:<span class="built_in">rect</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>);</span><br><span class="line">  <span class="attribute">white-space</span>:nowrap;</span><br><span class="line">  <span class="attribute">border</span>:<span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;ensp;&amp;ensp;使用&lt;code&gt;sr-only&lt;/code&gt;样式的目的是将内容从视觉上隐藏，但是仍然让 &lt;code&gt;Screen Reader&lt;/code&gt; 可读。这对视觉障碍者提供了额外的信息，增强了&lt;code&gt;Accessibility&lt;/code&gt;，同时对&lt;c</summary>
+      
+    
+    
+    
+    <category term="Web开发" scheme="https://llmons.github.io/categories/Web%E5%BC%80%E5%8F%91/"/>
+    
+    
+    <category term="笔记" scheme="https://llmons.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="css" scheme="https://llmons.github.io/tags/css/"/>
+    
+    <category term="前端" scheme="https://llmons.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="Web开发" scheme="https://llmons.github.io/tags/Web%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些算法中常用的coding技巧</title>
+    <link href="https://llmons.github.io/2024/07/18/%E4%B8%80%E4%BA%9B%E7%AE%97%E6%B3%95%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84coding%E6%8A%80%E5%B7%A7/"/>
+    <id>https://llmons.github.io/2024/07/18/%E4%B8%80%E4%BA%9B%E7%AE%97%E6%B3%95%E4%B8%AD%E5%B8%B8%E7%94%A8%E7%9A%84coding%E6%8A%80%E5%B7%A7/</id>
+    <published>2024-07-18T12:39:55.000Z</published>
+    <updated>2024-07-18T12:44:35.455Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写一些学算法时收获的-coding-小技巧"><a href="#写一些学算法时收获的-coding-小技巧" class="headerlink" title="写一些学算法时收获的 coding 小技巧"></a>写一些学算法时收获的 coding 小技巧</h2><h3 id="不等于-1"><a href="#不等于-1" class="headerlink" title="不等于 -1"></a>不等于 -1</h3><p>在记忆化搜索中通常会有一个 memo 数组，最初的时候 memo 会全被初始化为-1，代码中有时会这么写</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">dfs</span><span class="params">(<span class="type">int</span> i)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(i&gt;n)&#123;</span><br><span class="line">        <span class="built_in">cal</span>();</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(memo[i][j]!=<span class="number">-1</span>)&#123;</span><br><span class="line">        <span class="built_in">cal</span>();</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">dfs</span>(i<span class="number">+1</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>那么这个记忆化判断部分<code>if(memo[i][j]!=-1)</code>，<br><br>完全可以写成<code>if(~memo[i][j])</code>.<br></p><p>其中的原理：-1的二进制为 <em>1000&nbsp;0001</em> ，其在计算机中存储为补码形式，即 <em>1111&nbsp;1111</em> ，<code>~</code>运算取反，-1会运算成0，其他数则会运算为非0，那么<code>if(~memo[i][j])</code>就是表示除了-1均通过</p><h3 id="向下取整（仅限JavaScript）"><a href="#向下取整（仅限JavaScript）" class="headerlink" title="向下取整（仅限JavaScript）"></a>向下取整（仅限JavaScript）</h3><p>js是弱类型语言，在进行一些运算时会进行隐式类型转换，那么来这么一个式子：<br><code>x=~~x;</code><br><br>就可以实现向下取整，因为若右侧x为浮点数，在js中x用64位来储存，在使用位运算后，x就会变成32位整型，此时，小数点后面部分被舍弃，接着再来一次<code>~</code>，就可以返回原来的数。</p><p>举个例子，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">x=-6.9;</span><br><span class="line">~x=5;       // 运算时先截掉后面的0.9，然后x变为-6，取反为5</span><br><span class="line">~~x=-6      // 5再取反就变成了-6</span><br></pre></td></tr></table></figure><p>其实知道原理之后还可以使用如 <code>x=x|0;</code>这样的式子来向下取整。</p><p>注意以上只能用于js，其他强类型语言会报错或者运算错误。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;写一些学算法时收获的-coding-小技巧&quot;&gt;&lt;a href=&quot;#写一些学算法时收获的-coding-小技巧&quot; class=&quot;headerlink&quot; title=&quot;写一些学算法时收获的 coding 小技巧&quot;&gt;&lt;/a&gt;写一些学算法时收获的 coding 小技巧&lt;/</summary>
+      
+    
+    
+    
+    <category term="算法" scheme="https://llmons.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="技巧" scheme="https://llmons.github.io/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+    <category term="cpp" scheme="https://llmons.github.io/tags/cpp/"/>
+    
+    <category term="算法" scheme="https://llmons.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="js" scheme="https://llmons.github.io/tags/js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你好，世界</title>
+    <link href="https://llmons.github.io/2024/07/16/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C/"/>
+    <id>https://llmons.github.io/2024/07/16/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E4%B8%96%E7%95%8C/</id>
+    <published>2024-07-16T06:51:59.000Z</published>
+    <updated>2024-08-03T15:53:38.139Z</updated>
+    
+    <content type="html"><![CDATA[<p><del>每回合增加一张牌到你的手牌</del></p><h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2><h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// c</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span>&#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello World\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// cpp</span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    std::cout&lt;&lt;<span class="string">&quot;Hello World&quot;</span>&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// java</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Main</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># py</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello World&quot;</span>)</span><br></pre></td></tr></table></figure><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// js</span></span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello World&quot;</span>);</span><br></pre></td></tr></table></figure><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;Hello World&quot;;</span><br></pre></td></tr></table></figure><!-- https://i.y.qq.com/n2/m/share/details/taoge.html?id=5775608452 --><!--     <div id="aplayer-KRBCKxjs" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="5775608452" data-server="tencent" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86" data-order="random"    ></div> --><!-- https://i.y.qq.com/n2/m/share/details/taoge.html?id=9101992810&hosteuin= --><!-- https://music.163.com/#/playlist?id=128871831 -->]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;del&gt;每回合增加一张牌到你的手牌&lt;/del&gt;&lt;/p&gt;
+&lt;h1 id=&quot;h1&quot;&gt;&lt;a href=&quot;#h1&quot; class=&quot;headerlink&quot; title=&quot;h1&quot;&gt;&lt;/a&gt;h1&lt;/h1&gt;&lt;h2 id=&quot;h2&quot;&gt;&lt;a href=&quot;#h2&quot; class=&quot;headerli</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
