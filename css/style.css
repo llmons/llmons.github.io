@@ -1,9 +1,40 @@
-#aside_content .card-widget,
-#recent-posts>.recent-post-item,
-.layout_page>div:first-child:not(.recent-posts),
-.layout_post>#page,
-.layout_post>#post,
-.read-mode .layout_post>#post {
-    backdrop-filter: blur(50px);
-    /* background: rgba(255, 255, 255, 0.5); */
+:root {
+    --font-color: #4c4948;
 }
+
+.avatar-img img:hover,
+#aside-content .card-info .card-info-social-icons i:hover {
+    transform: unset;
+}
+
+/* .aplayer-body {
+    width: 66px !important;
+} */
+
+.aplayer-body,
+.aplayer-pic {
+    border-radius: 50% !important;
+}
+
+.aplayer.aplayer-fixed .aplayer-body {
+    padding-right: 0 !important;
+}
+
+.aplayer .aplayer-pic .aplayer-button {
+    animation: unset;
+}
+
+.aplayer-miniswitcher,
+.aplayer .aplayer-fixed .aplayer-miniswitcher {
+    display: none !important;
+}
+
+/* #aside-content .card-widget,
+#recent-posts>.recent-post-item,
+#archive,
+#page,
+#post {
+    background: hsla(0, 0%, 80%, 0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+} */
